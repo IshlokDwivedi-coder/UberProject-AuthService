@@ -14,7 +14,7 @@ import java.util.Date;
 public class Booking extends BaseModel{
 
 //    @OneToOne(cascade = {CascadeType.PERSIST,CascadeType.REMOVE})
-//    private Review driverReview; //we have defined a 1:1 relationships betwwen booking and review
+//    private Review driverReview; //we have defined a 1:1 relationships between booking and review
 
     @Enumerated(value = EnumType.STRING)
     private BookingStatus bookingStatus;
